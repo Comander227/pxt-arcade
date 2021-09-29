@@ -1,17 +1,17 @@
 # First Exhibit: By Land
 
 
-## Step 1
+## {Step 1}
 
 **Your very first exhibit! Exciting, huh?**
 
-Hm... it does look a little empty.  
+Hm... it does look a little empty.
 Well, what's your favorite animal? Let's invite them over!
 
 ---
 
-▶ From the ``||sprites:Sprites||`` category, drag ``||variables:set [mySprite] to sprite [ ] of kind [Player]||`` 
-into ``||loops:on start||``. 
+▶ From the ``||sprites:Sprites||`` category, drag ``||variables:set [mySprite] to sprite [ ] of kind [Player]||``
+into ``||loops:on start||``.
 
 ▶ Click the grey box in the new block and draw your animal using the **image editor**!
 
@@ -19,74 +19,74 @@ into ``||loops:on start||``.
 
 ```blocks
 let mySprite = sprites.create(img`
-    . . . . . . 5 5 5 . . . . . . . 
-    . . . . 5 5 5 5 5 5 5 . . . . . 
-    . . . 5 5 4 4 5 5 5 5 . . . . . 
-    . . 5 5 5 5 5 5 5 5 5 . . . . . 
-    . 5 5 5 4 4 4 4 5 5 5 5 . . . . 
-    . 5 5 4 f 4 4 4 4 5 4 5 . . . . 
-    . 5 5 4 4 4 f 4 4 5 4 5 4 4 4 . 
-    . 5 3 4 4 4 4 4 4 5 5 5 4 4 4 . 
-    . 5 4 4 4 4 4 4 5 5 5 5 4 4 4 4 
-    . 5 5 5 5 5 5 5 5 5 5 5 4 4 4 4 
-    . . . 5 5 5 5 5 5 5 5 4 4 4 4 4 
-    . . . . 5 5 5 5 5 5 4 4 4 4 4 4 
-    . . . . . . 4 4 4 4 4 4 4 4 4 4 
-    . . . . . 4 4 4 4 4 4 4 4 4 4 . 
-    . . . . . 4 . . . . 4 4 4 . 4 . 
-    . . . . 4 4 . . . . 4 4 . . . 4 
+    . . . . . . 5 5 5 . . . . . . .
+    . . . . 5 5 5 5 5 5 5 . . . . .
+    . . . 5 5 4 4 5 5 5 5 . . . . .
+    . . 5 5 5 5 5 5 5 5 5 . . . . .
+    . 5 5 5 4 4 4 4 5 5 5 5 . . . .
+    . 5 5 4 f 4 4 4 4 5 4 5 . . . .
+    . 5 5 4 4 4 f 4 4 5 4 5 4 4 4 .
+    . 5 3 4 4 4 4 4 4 5 5 5 4 4 4 .
+    . 5 4 4 4 4 4 4 5 5 5 5 4 4 4 4
+    . 5 5 5 5 5 5 5 5 5 5 5 4 4 4 4
+    . . . 5 5 5 5 5 5 5 5 4 4 4 4 4
+    . . . . 5 5 5 5 5 5 4 4 4 4 4 4
+    . . . . . . 4 4 4 4 4 4 4 4 4 4
+    . . . . . 4 4 4 4 4 4 4 4 4 4 .
+    . . . . . 4 . . . . 4 4 4 . 4 .
+    . . . . 4 4 . . . . 4 4 . . . 4
     `, SpriteKind.Player)
 ```
 
-## Step 2 
+## {Step 2 }
 
 **🦓  Take your animal for a walk! 🐆**
 
 ---
 
 ▶From ``||sprites:Sprites||``, grab
-``||sprites:set [mySprite] velocity to vx [50] vy [50]||`` 
+``||sprites:set [mySprite] velocity to vx [50] vy [50]||``
 and drag it into the **end** of the ``||loops:on start||`` container. Your animal friend
-should start moving! 
+should start moving!
 
 ▶ Try changing the numbers next to **vx** and **vy**
 and watch the game screen to see what happens.
 
 ```blocks
 let mySprite = sprites.create(img`
-    . . . . . . 5 5 5 . . . . . . . 
-    . . . . 5 5 5 5 5 5 5 . . . . . 
-    . . . 5 5 4 4 5 5 5 5 . . . . . 
-    . . 5 5 5 5 5 5 5 5 5 . . . . . 
-    . 5 5 5 4 4 4 4 5 5 5 5 . . . . 
-    . 5 5 4 f 4 4 4 4 5 4 5 . . . . 
-    . 5 5 4 4 4 f 4 4 5 4 5 4 4 4 . 
-    . 5 3 4 4 4 4 4 4 5 5 5 4 4 4 . 
-    . 5 4 4 4 4 4 4 5 5 5 5 4 4 4 4 
-    . 5 5 5 5 5 5 5 5 5 5 5 4 4 4 4 
-    . . . 5 5 5 5 5 5 5 5 4 4 4 4 4 
-    . . . . 5 5 5 5 5 5 4 4 4 4 4 4 
-    . . . . . . 4 4 4 4 4 4 4 4 4 4 
-    . . . . . 4 4 4 4 4 4 4 4 4 4 . 
-    . . . . . 4 . . . . 4 4 4 . 4 . 
-    . . . . 4 4 . . . . 4 4 . . . 4 
+    . . . . . . 5 5 5 . . . . . . .
+    . . . . 5 5 5 5 5 5 5 . . . . .
+    . . . 5 5 4 4 5 5 5 5 . . . . .
+    . . 5 5 5 5 5 5 5 5 5 . . . . .
+    . 5 5 5 4 4 4 4 5 5 5 5 . . . .
+    . 5 5 4 f 4 4 4 4 5 4 5 . . . .
+    . 5 5 4 4 4 f 4 4 5 4 5 4 4 4 .
+    . 5 3 4 4 4 4 4 4 5 5 5 4 4 4 .
+    . 5 4 4 4 4 4 4 5 5 5 5 4 4 4 4
+    . 5 5 5 5 5 5 5 5 5 5 5 4 4 4 4
+    . . . 5 5 5 5 5 5 5 5 4 4 4 4 4
+    . . . . 5 5 5 5 5 5 4 4 4 4 4 4
+    . . . . . . 4 4 4 4 4 4 4 4 4 4
+    . . . . . 4 4 4 4 4 4 4 4 4 4 .
+    . . . . . 4 . . . . 4 4 4 . 4 .
+    . . . . 4 4 . . . . 4 4 . . . 4
     `, SpriteKind.Player)
     //@highlight
 mySprite.setVelocity(50, 50)
 ```
 
-## Step 3
+## {Step 3}
 
-The same old path gets boring after a while.  
+The same old path gets boring after a while.
 **Let's add some randomness!**
 
 ---
 
-▶ Go to the ``||math:Math||`` category and grab two 
-``||math:pick random [0] to [10]||`` value blocks. 
-Use them to replace the numbers next to the **vx** and **vy**. 
+▶ Go to the ``||math:Math||`` category and grab two
+``||math:pick random [0] to [10]||`` value blocks.
+Use them to replace the numbers next to the **vx** and **vy**.
 
-▶ Change the numbers inside the **random** blocks to see different kinds of 
+▶ Change the numbers inside the **random** blocks to see different kinds of
 movement each time you reload!
 
 ---
@@ -95,36 +95,36 @@ movement each time you reload!
 
 ```blocks
 let mySprite = sprites.create(img`
-    . . . . . . 5 5 5 . . . . . . . 
-    . . . . 5 5 5 5 5 5 5 . . . . . 
-    . . . 5 5 4 4 5 5 5 5 . . . . . 
-    . . 5 5 5 5 5 5 5 5 5 . . . . . 
-    . 5 5 5 4 4 4 4 5 5 5 5 . . . . 
-    . 5 5 4 f 4 4 4 4 5 4 5 . . . . 
-    . 5 5 4 4 4 f 4 4 5 4 5 4 4 4 . 
-    . 5 3 4 4 4 4 4 4 5 5 5 4 4 4 . 
-    . 5 4 4 4 4 4 4 5 5 5 5 4 4 4 4 
-    . 5 5 5 5 5 5 5 5 5 5 5 4 4 4 4 
-    . . . 5 5 5 5 5 5 5 5 4 4 4 4 4 
-    . . . . 5 5 5 5 5 5 4 4 4 4 4 4 
-    . . . . . . 4 4 4 4 4 4 4 4 4 4 
-    . . . . . 4 4 4 4 4 4 4 4 4 4 . 
-    . . . . . 4 . . . . 4 4 4 . 4 . 
-    . . . . 4 4 . . . . 4 4 . . . 4 
+    . . . . . . 5 5 5 . . . . . . .
+    . . . . 5 5 5 5 5 5 5 . . . . .
+    . . . 5 5 4 4 5 5 5 5 . . . . .
+    . . 5 5 5 5 5 5 5 5 5 . . . . .
+    . 5 5 5 4 4 4 4 5 5 5 5 . . . .
+    . 5 5 4 f 4 4 4 4 5 4 5 . . . .
+    . 5 5 4 4 4 f 4 4 5 4 5 4 4 4 .
+    . 5 3 4 4 4 4 4 4 5 5 5 4 4 4 .
+    . 5 4 4 4 4 4 4 5 5 5 5 4 4 4 4
+    . 5 5 5 5 5 5 5 5 5 5 5 4 4 4 4
+    . . . 5 5 5 5 5 5 5 5 4 4 4 4 4
+    . . . . 5 5 5 5 5 5 4 4 4 4 4 4
+    . . . . . . 4 4 4 4 4 4 4 4 4 4
+    . . . . . 4 4 4 4 4 4 4 4 4 4 .
+    . . . . . 4 . . . . 4 4 4 . 4 .
+    . . . . 4 4 . . . . 4 4 . . . 4
     `, SpriteKind.Player)
     //@highlight
 mySprite.setVelocity(randint(-50, 50), randint(-50, 50))
 ```
 
-## Step 4 
+## {Step 4 }
 
 **When the animal hits the edge of the enclosure they stop moving!**
 
-Let's fix that. 
+Let's fix that.
 
 ---
 
-▶ Open the ``||sprites:Sprites||`` category, then grab ``||sprites:set [mySprite] bounce on wall <ON>||`` 
+▶ Open the ``||sprites:Sprites||`` category, then grab ``||sprites:set [mySprite] bounce on wall <ON>||``
 to snap in at the **end** of the program.
 
 ---
@@ -134,47 +134,47 @@ Now your animal can explore the entire exhibit!
 
 ```blocks
 let mySprite = sprites.create(img`
-    . . . . . . 5 5 5 . . . . . . . 
-    . . . . 5 5 5 5 5 5 5 . . . . . 
-    . . . 5 5 4 4 5 5 5 5 . . . . . 
-    . . 5 5 5 5 5 5 5 5 5 . . . . . 
-    . 5 5 5 4 4 4 4 5 5 5 5 . . . . 
-    . 5 5 4 f 4 4 4 4 5 4 5 . . . . 
-    . 5 5 4 4 4 f 4 4 5 4 5 4 4 4 . 
-    . 5 3 4 4 4 4 4 4 5 5 5 4 4 4 . 
-    . 5 4 4 4 4 4 4 5 5 5 5 4 4 4 4 
-    . 5 5 5 5 5 5 5 5 5 5 5 4 4 4 4 
-    . . . 5 5 5 5 5 5 5 5 4 4 4 4 4 
-    . . . . 5 5 5 5 5 5 4 4 4 4 4 4 
-    . . . . . . 4 4 4 4 4 4 4 4 4 4 
-    . . . . . 4 4 4 4 4 4 4 4 4 4 . 
-    . . . . . 4 . . . . 4 4 4 . 4 . 
-    . . . . 4 4 . . . . 4 4 . . . 4 
+    . . . . . . 5 5 5 . . . . . . .
+    . . . . 5 5 5 5 5 5 5 . . . . .
+    . . . 5 5 4 4 5 5 5 5 . . . . .
+    . . 5 5 5 5 5 5 5 5 5 . . . . .
+    . 5 5 5 4 4 4 4 5 5 5 5 . . . .
+    . 5 5 4 f 4 4 4 4 5 4 5 . . . .
+    . 5 5 4 4 4 f 4 4 5 4 5 4 4 4 .
+    . 5 3 4 4 4 4 4 4 5 5 5 4 4 4 .
+    . 5 4 4 4 4 4 4 5 5 5 5 4 4 4 4
+    . 5 5 5 5 5 5 5 5 5 5 5 4 4 4 4
+    . . . 5 5 5 5 5 5 5 5 4 4 4 4 4
+    . . . . 5 5 5 5 5 5 4 4 4 4 4 4
+    . . . . . . 4 4 4 4 4 4 4 4 4 4
+    . . . . . 4 4 4 4 4 4 4 4 4 4 .
+    . . . . . 4 . . . . 4 4 4 . 4 .
+    . . . . 4 4 . . . . 4 4 . . . 4
     `, SpriteKind.Player)
 mySprite.setVelocity(randint(-50, 50), randint(-50, 50))
 //@highlight
 mySprite.setBounceOnWall(true)
 ```
 
-## Step 5 @showdialog
+## {Step 5 @showdialog}
 
 ![A clipboard with a checklist. One item is checked off](/static/skillmap/zoo/zoo-clipboard.png)
 
 **This exhibit looks awesome!**
 
-The other kids at the zoo are going to 
+The other kids at the zoo are going to
 love it...WHOA! What's that sound?
 
-## Step 6 @showdialog
+## {Step 6 @showdialog}
 
 ![A rotating red siren](/static/skillmap/zoo/siren.gif)
 
 **An alarm?**
 
 What's going on? Hold on, we're getting a report from the penguin department — the
-penguins did *what*? 
+penguins did *what*?
 
-## Step 7
+## {Step 7}
 **🚨 OH NO🚨**
 
 You better get over there!

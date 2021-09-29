@@ -1,7 +1,7 @@
 # Simple Platformer
 
 
-## Welcome @showdialog
+## {Welcome @showdialog}
 
 Welcome to **Jungle Monkey Jump!**
 
@@ -15,7 +15,7 @@ This kind of game peeks in on the action from the side, and relies on a [__*tile
 
 
 
-## Step 2
+## {Step 2}
 
 **Your scene has already been set!**
 
@@ -27,7 +27,7 @@ This kind of game peeks in on the action from the side, and relies on a [__*tile
 
 
 
-## Step 3 - We need a HERO
+## {Step 3 - We need a HERO}
 
 **🐒 We need a hero 🐒**
 
@@ -48,7 +48,7 @@ let mySprite = sprites.create(assets.image`stand`, SpriteKind.Player)
 ```
 
 
-## Step 4 - Control the Player
+## {Step 4 - Control the Player}
 
 **↔️ Time to get the player moving ↔️**
 
@@ -70,7 +70,7 @@ controller.moveSprite(mySprite, 100, 0)
 ```
 
 
-## Step 5 - Try It
+## {Step 5 - Try It}
 
 **🕹️ Be sure to give your game a try on the game screen 🕹️ **
 
@@ -79,7 +79,7 @@ controller.moveSprite(mySprite, 100, 0)
 How do you like it?  Feel like making a few more changes?
 
 
-## Step 6 - Add gravity
+## {Step 6 - Add gravity}
 
 **To make the game feel more realistic, it needs gravity.**
 
@@ -103,7 +103,7 @@ controller.moveSprite(mySprite, 100, 0)
 mySprite.ay = 500
 ```
 
-## Step 7 - Follow with Camera
+## {Step 7 - Follow with Camera}
 
 **Oops!  The monkey falls off-screen!**
 
@@ -124,13 +124,13 @@ scene.cameraFollowSprite(mySprite)
 ```
 
 
-## Step 8 - Look Again
+## {Step 8 - Look Again}
 
 **🕹️ Look at the game window to make sure you can see the monkey land on a platform. 🕹️ **
 
 
 
-## Step 9 - Jump
+## {Step 9 - Jump}
 
 Now that the monkey has landed safely, we can make it jump using the **up** arrow!
 
@@ -152,7 +152,7 @@ controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
 
 
 
-## Done
+## {Done}
 
 🔥 **That's it! Now give your game a try!** 🔥
 Can you jump around between platforms?

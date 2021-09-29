@@ -1,6 +1,6 @@
 # Here comes trouble!
 
-## Introduction @showdialog
+## {Introduction @showdialog}
 
 **Intergalactic travel is dangerous!**
 
@@ -9,7 +9,7 @@ Let's add some enemies for your ship to avoid.
 ![Fighting enemies](/static/skillmap/space/spacet3.gif "Here, enemy ship. Have one of mine.")
 
 
-## Step 2
+## {Step 2}
 
 **👾 Feel like making enemies rain from the sky? 👾**
 
@@ -29,7 +29,7 @@ game.onUpdateInterval(2000, function () {
 })
 ```
 
-## Step 3
+## {Step 3}
 
 ► In the ``||sprites:Sprites||`` category, find the
 ``||variables:set [projectile2] to projectile [ ] from side with vx [50] vy [50]||`` block
@@ -54,7 +54,7 @@ game.onUpdateInterval(2000, function () {
 })
 ```
 
-## Step 4
+## {Step 4}
 **🎆 Let's get the enemies moving in the right direction 🎆**
 
 ---
@@ -76,7 +76,7 @@ game.onUpdateInterval(2000, function () {
 
 ```
 
-## Step 5
+## {Step 5}
 
 Enemies aren't likely to hit the ship if they're off to the side. Let's add an element of surprise using [__*random numbers*__](#randos "numbers appearing seemingly without a predictable pattern") .
 
@@ -95,7 +95,7 @@ game.onUpdateInterval(2000, function () {
 })
 ```
 
-## Step 6
+## {Step 6}
 
 ► Set a random [__*x*__](#setX "horizontal location")
 for the enemies using a
@@ -119,7 +119,7 @@ game.onUpdateInterval(2000, function () {
 ```
 
 
-## Step 7
+## {Step 7}
 
 We now have two different kinds of projectiles. Let's make sure the computer knows they're different by setting this one to an
 "**Enemy**" [__*kind*__](#withClass "a label you give a particular group so you can refer to it later").
@@ -143,7 +143,7 @@ game.onUpdateInterval(2000, function () {
 ```
 
 
-## Step 8
+## {Step 8}
 
 **💥 Time to create some enemy behavior 💥**
 
@@ -169,7 +169,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
 })
 ```
 
-## Step 9
+## {Step 9}
 
 When the enemy collides with the ship,
 we want it to subtract a life...then disappear.
@@ -189,7 +189,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
 })
 ```
 
-## Step 10
+## {Step 10}
 
 ► To tell the **destroy** block that you want it to affect the overlapping enemy,
 click on the ``||variables:otherSprite||`` variable from the top of the
@@ -210,7 +210,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
 })
 ```
 
-## Step 11
+## {Step 11}
 
 **🌍 Time to save the world 🌏**
 
@@ -242,7 +242,7 @@ sprites.onOverlap(SpriteKind.Enemy, SpriteKind.Projectile, function (sprite, oth
 })
 ```
 
-## Step 12
+## {Step 12}
 
 **🌍 Finally, let's add a point for each enemy destroyed 🌏**
 
@@ -258,7 +258,7 @@ sprites.onOverlap(SpriteKind.Enemy, SpriteKind.Projectile, function (sprite, oth
 })
 ```
 
-## Complete
+## {Complete}
 
 **Congratulations**
 

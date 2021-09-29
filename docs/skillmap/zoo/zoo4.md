@@ -1,6 +1,6 @@
 # Feed the Panda
 
-## Step 1
+## {Step 1}
 
 **🎋 It's feeding time! 🎋**
 
@@ -13,7 +13,7 @@ write some code to feed it some tasty bamboo.
 It should look familiar. Can you remember what it does?
 
 
-## Step 2
+## {Step 2}
 
 **First, you'll need to grab some bamboo.**
 
@@ -50,7 +50,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 ```
 
 
-## Step 3  @showdialog
+## {Step 3  @showdialog}
 
 **Press the Ⓐ button**
 
@@ -59,7 +59,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 Look at your game screen to see what happens.
 
 
-## Step 4
+## {Step 4}
 
 **Time to scatter the bamboo around the panda enclosure!**
 
@@ -100,12 +100,12 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 ```
 
 
-## Step 5
+## {Step 5}
 
 **Press the Ⓐ button (or click the space bar)** to place food for the panda.
 
 
-## Step 6
+## {Step 6}
 
 **Aw, the panda isn't very good at finding the food...let's help it out!**
 
@@ -145,7 +145,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 ```
 
-## Step 7
+## {Step 7}
 
 **😋 Munch time 😋**
 
@@ -166,7 +166,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 })
 ```
 
-## Step 8
+## {Step 8}
 
 ► Next, grab a ``||sprites:destroy [mySprite] ⊕||`` block from ``||sprites:Sprites||``
 and put it in the **on overlaps** container.
@@ -189,7 +189,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 })
 ```
 
-## step 9
+## {step 9}
 
 **Way to go!**
 

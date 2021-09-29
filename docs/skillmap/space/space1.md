@@ -1,7 +1,7 @@
 # Prepare Your Ship
 
 
-## Introduction @showdialog
+## {Introduction @showdialog}
 
 ** Let's explore the depths of space! **
 
@@ -9,7 +9,7 @@ In this tutorial, you'll prepare your ship for a journey into space!
 
 ![Flying through space](/static/skillmap/space/spacet1.gif "Blasting through space")
 
-## Set the scene
+## {Set the scene}
 **Time to give 'em a view** 🔭
 
 ---
@@ -31,7 +31,7 @@ scene.setBackgroundImage(assets.image`Galaxy`)
 
 
 
-## Make it fly
+## {Make it fly}
 **🚀 Make it fly 🚀**
 
 ---
@@ -49,7 +49,7 @@ scroller.scrollBackgroundWithSpeed(0, 10)
 ```
 
 
-## Draw your ship
+## {Draw your ship}
 **🧑🏿‍🚀 Time to choose our ship! 👩🏾‍🚀**
 
 ---
@@ -69,7 +69,7 @@ let mySprite = sprites.create(assets.image`Rocket`, SpriteKind.Player)
 
 
 
-## Control your ship
+## {Control your ship}
 
 🌟 Let's get your ship moving 🌟
 
@@ -91,7 +91,7 @@ mySprite = sprites.create(assets.image`Rocket`, SpriteKind.Player)
 controller.moveSprite(mySprite)
 ```
 
-## Stay in screen
+## {Stay in screen}
 
 **Uh-oh, if you move off screen, your ship disappears!**
 
@@ -115,7 +115,7 @@ mySprite.setStayInScreen(true)
 ```
 
 
-## Finale @showdialog
+## {Finale @showdialog}
 
 **Great Job!**
 
@@ -126,7 +126,7 @@ Is everything how you want it? You can always go back and edit steps if you disc
 
 
 
-## Byeeee
+## {Byeeee}
 
 ** 🚀 That's it! 🚀**
 

@@ -1,7 +1,7 @@
 # Blown Away
 
 
-## Welcome @showdialog
+## {Welcome @showdialog}
 
 **One of our baubles is locked away!**
 This activity will show you how to explode tiles so you can get every point.
@@ -10,7 +10,7 @@ This activity will show you how to explode tiles so you can get every point.
 
 
 
-## Step 2 - Try It!
+## {Step 2 - Try It!}
 
 **🕹️ Start by playing the game in the game window 🕹️**
 
@@ -19,7 +19,7 @@ This activity will show you how to explode tiles so you can get every point.
 Can you find the bauble that's blocked-in?
 
 
-## Step 3 - When B Pressed
+## {Step 3 - When B Pressed}
 
 **💥 Nothing a little dynamite can't fix 💥**
 We need to remove some walls and tiles! Let's clear the way when the B button is pressed.
@@ -39,7 +39,7 @@ controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 ```
 
-## Step 4 - Set the explosive
+## {Step 4 - Set the explosive}
 
 We're going to use a **Projectile** block here, even though our dynamite stays in one place.
 
@@ -61,7 +61,7 @@ controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 ```
 
-## Step 5 - Make it powerful
+## {Step 5 - Make it powerful}
 
 For the explosive to overlap the blocks around it, we need it to be able to **go through walls**!
 
@@ -83,7 +83,7 @@ let projectile = sprites.createProjectileFromSprite(assets.image`blank`, mySprit
 })
 ```
 
-## Step 6 - Animate It!
+## {Step 6 - Animate It!}
 
 In this step, we'll choose **an animation** for our projectile to make it look like it's exploding!
 
@@ -127,7 +127,7 @@ controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 ```
 
-## Step 7 - Choose the Boom!
+## {Step 7 - Choose the Boom!}
 
 
 ► Inside the large ``||animation:animate [mySprite]||`` block, click the empty grey square and toggle to **My Assets** to choose the **splode** animation, then click **Done**.
@@ -151,7 +151,7 @@ controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 ```
 
-## Try It!
+## {Try It!}
 
 **🕹️ Now try your game 🕹️**
 
@@ -163,7 +163,7 @@ You should be able to jump with the up arrow, place tiles with the A button, and
 
 
 
-## Step 9 - Removing Block Tiles
+## {Step 9 - Removing Block Tiles}
 
 **💥 Kaboom 💥**
 When your **splode** animation overlaps a platform tile, we need to remove both the wall and the tile.
@@ -183,7 +183,7 @@ scene.onOverlapTile(SpriteKind.Projectile, assets.tile`skyblock`, function (spri
 })
 ```
 
-## Step 10 - Removing Walls
+## {Step 10 - Removing Walls}
 
 ► From ``||scene:Scene||``, drag ``||scene:set wall <OFF> at tilemap col [0] row [0]||`` into the empty ``||scene:on [sprite] of kind [Projectile] overlaps [skyblock] at [location]||`` container.
 
@@ -204,7 +204,7 @@ scene.onOverlapTile(SpriteKind.Projectile, assets.tile`skyblock`, function (spri
 ![Editing our platformer](/static/skillmap/jungle/projectile-wall-off.gif "Time to live dangerously!")
 
 
-## Step 11 - Removing Tiles
+## {Step 11 - Removing Tiles}
 
 Lastly, we need to remove the tile from the same place that we removed the wall.
 
@@ -223,7 +223,7 @@ scene.onOverlapTile(SpriteKind.Projectile, assets.tile`skyblock`, function (spri
 })
 ```
 
-## Try It!
+## {Try It!}
 
 **🕹️ Time to play your game 🕹️**
 
@@ -233,7 +233,7 @@ You should have everything you need to collect all five baubles and get to the e
 
 
 
-## Finished
+## {Finished}
 
 **Play your game and see how many points you can get.**
 

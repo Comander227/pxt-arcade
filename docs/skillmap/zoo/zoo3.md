@@ -2,7 +2,7 @@
 # Penguins!
 
 
-## Step 1 @showdialog
+## {Step 1 @showdialog}
 
 ![A dirt path with a penguin looking up at a wooden sign. Several penguins are hiding in the bushes.](static/skillmap/zoo/zoo-penguins.png)
 
@@ -11,7 +11,7 @@
 They're running around outside of their enclosure. You have to help!
 They're eating all the ice cream and sliding down the street!
 
-## Step 2
+## {Step 2}
 
 Look through the code and figure out how to put the penguins back into their
 icy paradise.

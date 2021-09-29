@@ -1,6 +1,6 @@
 # Quail Hatching
 
-## Step 1   @showdialog
+## {Step 1   @showdialog}
 
 It's quail hatching season! The quail are laying eggs left
 and right.
@@ -8,7 +8,7 @@ and right.
 Let's catch them and put them back into the
 quail coop.
 
-## step 2
+## {step 2}
 
 First, look at the code in the workspace.
 
@@ -21,7 +21,7 @@ and where the controller buttons are enabled?
 
 At the moment, the glove doesn't do anything when it overlaps quail. We should fix that.
 
-## Step 3
+## {Step 3}
 
 **Let's catch some birds!**
 
@@ -43,7 +43,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Quail, function (sprite, otherSp
 })
 ```
 
-## Step 3
+## {Step 3}
 
 **✋ Once you catch a quail, it should stay in your hand 🤚**
 
@@ -68,7 +68,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Quail, function (sprite, otherSp
 })
 ```
 
-## Step 5
+## {Step 5}
 
 **Give the game a try in the simulator.**
 
@@ -76,7 +76,7 @@ What's happening?
 What's not happening?
 
 
-## Step 6
+## {Step 6}
 
 **We need to put the quail back into the coop.**
 
@@ -97,7 +97,7 @@ scene.onOverlapTile(SpriteKind.Quail, assets.tile`myTile`, function (sprite, loc
 ```
 
 
-## Step 7
+## {Step 7}
 
 ► Snap a ``||sprites:destroy [mySprite]||`` block into the empty
 overlaps container.
@@ -120,7 +120,7 @@ scene.onOverlapTile(SpriteKind.Quail, assets.tile`myTile`, function (sprite, loc
 })
 ```
 
-## Step 8
+## {Step 8}
 
 **Now you have to deal with the pesky leftover quail eggs**
 
@@ -154,7 +154,7 @@ scene.onOverlapTile(SpriteKind.Egg, assets.tile`myTile`, function (sprite, locat
 ```
 
 
-## Step 8
+## {Step 8}
 
 **Now play your game!**
 

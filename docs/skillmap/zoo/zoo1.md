@@ -1,7 +1,7 @@
 # First Day
 
 
-## Welcome @showdialog
+## {Welcome @showdialog}
 
 ![A banner saying "ZOO" with a giraffe looking up at it](static/skillmap/zoo/zoo-welcome.png)
 
@@ -11,7 +11,7 @@ No worries,
 we'll show you the zookeeper ropes. First things first,
 click that green **OK** button to see the **Keeper's Hut**.
 
-## Step 1
+## {Step 1}
 
 **🏠 Home sweet home 🏠**.
 Let's get you set up in your new place!
@@ -46,7 +46,7 @@ let mySprite = sprites.create(img`
     `, SpriteKind.Player)
 ```
 
-## Step 2
+## {Step 2}
 
 **🕰 Time to get moving 🕰**
 
@@ -86,7 +86,7 @@ let mySprite = sprites.create(img`
 controller.moveSprite(mySprite)
 ```
 
-## Step 3
+## {Step 3}
 
 **👀 Take a look around the room 👀**
 
@@ -120,7 +120,7 @@ controller.moveSprite(mySprite)
 scene.cameraFollowSprite(mySprite)
 ```
 
-## Step 4
+## {Step 4}
 
 **🐯 Fantastic! 🐯**
 

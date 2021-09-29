@@ -2,7 +2,7 @@
 ### @preferredEditor asset
 
 
-## Welcome @showdialog
+## {Welcome @showdialog}
 
 **Create your own levels!**
 
@@ -12,7 +12,7 @@ In this activity, you'll edit images and tilemaps to create a custom game!
 
 
 
-## Step 2 - Try It!
+## {Step 2 - Try It!}
 
 **🕹️ Start by playing your game in the game window 🕹️**
 
@@ -21,7 +21,7 @@ In this activity, you'll edit images and tilemaps to create a custom game!
 How do you feel about the main character? The background?
 
 
-## Step 3 - A New Location
+## {Step 3 - A New Location}
 
 **🖼️ Let's change the scene 🖼️**
 
@@ -33,7 +33,7 @@ How do you feel about the main character? The background?
 
 
 
-## Step 4 - Edit Your Monkeys
+## {Step 4 - Edit Your Monkeys}
 
 **🙈 Change the Monkey 🙈**
 
@@ -42,7 +42,7 @@ How do you feel about the main character? The background?
 ► Go through **My Assets** and edit each of the monkeys. You can choose new characters and animations from the **Gallery** or draw your own!
 
 
-## Step 5 - Try It!
+## {Step 5 - Try It!}
 
 **🕹️ Play your game after each step 🕹️**
 
@@ -52,7 +52,7 @@ When you play your game, it's easier to see what changes need to be made to your
 
 
 
-## Step 6 - A New Level
+## {Step 6 - A New Level}
 
 **🚧 Let's dig in to the level editor 🚧**
 
@@ -65,7 +65,7 @@ When you play your game, it's easier to see what changes need to be made to your
 
 
 
-## Step 7 - Start Small
+## {Step 7 - Start Small}
 
 Let's make the character's starting platform longer.
 
@@ -79,7 +79,7 @@ Let's make the character's starting platform longer.
 ![Add tiles with the pencil](/static/skillmap/jungle/platform-tiles.gif)
 
 
-## Step 8 - Build a Wall
+## {Step 8 - Build a Wall}
 
 Add walls on top of your new tiles so that your character doesn't fall through.
 
@@ -93,7 +93,7 @@ Add walls on top of your new tiles so that your character doesn't fall through.
 
 
 
-##  Step 9 - Try It!
+## { Step 9 - Try It!}
 
 **🕹️ Give it a try 🕹️**
 
@@ -103,7 +103,7 @@ Is your game platform longer? Does it hold your main character?
 
 
 
-## Step 10 - Go Crazy!
+## {Step 10 - Go Crazy!}
 
 Now that you know how to add tiles and walls, you can change the levels whichever way you like.
 
@@ -111,7 +111,7 @@ Now that you know how to add tiles and walls, you can change the levels whicheve
 
 
 
-## Finished
+## {Finished}
 
 When you're done playing your new game, click **Done** to return to the main page to share your final game!
 

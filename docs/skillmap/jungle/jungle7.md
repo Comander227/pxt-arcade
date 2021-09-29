@@ -1,7 +1,7 @@
 # Extra Levels
 
 
-## Welcome @showdialog
+## {Welcome @showdialog}
 
 **Time to Level Up!**
 
@@ -11,7 +11,7 @@ This activity will show you how to add extra levels to your game.
 
 
 
-## Step 2 - Try It!
+## {Step 2 - Try It!}
 
 **🕹️ Start by playing your game in the game window 🕹️**
 
@@ -20,7 +20,7 @@ This activity will show you how to add extra levels to your game.
 Can you remember which chunk of code creates each action?
 
 
-## Step 3 - Not So Fast
+## {Step 3 - Not So Fast}
 
 **🗝️ Find a second chest to win the game 🗝️**
 
@@ -36,7 +36,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`chest2`, function (sprite, lo
 })
 ```
 
-## Step 4 - A New Level
+## {Step 4 - A New Level}
 
 **🙌 Add a New Level 🙌**
 When we get to the first chest, we want to take the player to a new level.
@@ -57,7 +57,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`chest1`, function (sprite, lo
 
 
 
-## Step 5 - Change of Scenery
+## {Step 5 - Change of Scenery}
 
 
 ► To show the player that the level has changed, go to ``||scene:Scene||`` and drag ``||scene:set background image to [ ]||`` into the empty **Player overlaps chest1** container.
@@ -72,7 +72,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`chest1`, function (sprite, lo
 ```
 
 
-## Step 6 - Change of Location
+## {Step 6 - Change of Location}
 
 
 ► To change the level tilemap, go to ``||scene:Scene||`` and drag ``||scene:set tilemap to [ ]||`` to **the end** of the **Player overlaps chest1** container.
@@ -89,7 +89,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`chest1`, function (sprite, lo
 ```
 
 
-## Step 9 - Back to the Beginning
+## {Step 9 - Back to the Beginning}
 
 **⏪ Here we go again! ⏪**
 
@@ -117,7 +117,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`chest1`, function (sprite, lo
 ```
 
 
-## Try It!
+## {Try It!}
 
 **🕹️ Give it a try 🕹️**
 
@@ -126,7 +126,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`chest1`, function (sprite, lo
 Make your way to the treasure chest. You should be transported to a new level!
 
 
-## Finished
+## {Finished}
 
 **🥳 Congratulations 🥳**
 You did it!!  Can you play your game all the way to the end?

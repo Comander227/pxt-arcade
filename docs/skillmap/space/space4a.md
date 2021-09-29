@@ -1,13 +1,13 @@
 # All Shook Up
 
-## Introduction @showdialog
+## {Introduction @showdialog}
 
 Let's make this game more impactful by adding effects that bring the action to life.
 
 ![Impact!](/static/skillmap/space/spacet4a.gif "That's earth-shaking!")
 
 
-## Step 2
+## {Step 2}
 
 The code for the beginning of your Space Explorer game is in the workspace.
 
@@ -16,7 +16,7 @@ The code for the beginning of your Space Explorer game is in the workspace.
 ►  Play your game on the game screen to make sure you can connect each action to the proper block of code.
 
 
-## Step 3
+## {Step 3}
 
 Let's add some drama by shaking the camera when you run into an enemy ship.
 
@@ -36,7 +36,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
 })
 ```
 
-## Step 4
+## {Step 4}
 
 **Add excitement by animating the main ship!**
 
@@ -83,7 +83,7 @@ false
 )
 ```
 
-## Step 5
+## {Step 5}
 ► To select your animation frames, click the empty grey square then toggle to **My Assets**
 and choose the **Flying Rocket** animation.  Click **Done** when you are ready.
 
@@ -106,13 +106,13 @@ true
 )
 ```
 
-## Step 6
+## {Step 6}
 
 ** 🎮 Play your game and see how much more exciting it looks! 🎮 **
 
 
 
-## Step 7
+## {Step 7}
 
 **Why stop there when you can also animate the enemy???**
 
@@ -154,7 +154,7 @@ false
 })
 ```
 
-## Step 8
+## {Step 8}
 
 ► To make sure we're animating the correct sprite, replace ``||variables:mySprite||`` with
  ``||variables:myEnemy||`` using the dropdown in the ``||animation:animate [mySprite]||`` block.
@@ -180,7 +180,7 @@ game.onUpdateInterval(2000, function () {
 ```
 
 
-## Finale
+## {Finale}
 
 **There you have it!**
 

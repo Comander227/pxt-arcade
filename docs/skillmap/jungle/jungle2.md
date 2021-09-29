@@ -1,7 +1,7 @@
 # Game Over
 
 
-## Welcome @showdialog
+## {Welcome @showdialog}
 
 **In this tutorial, we'll make it possible to win or lose our platformer game.**
 
@@ -9,7 +9,7 @@
 
 
 
-## Step 2 -Try It!
+## {Step 2 -Try It!}
 
 **🕹️ First, move your sprite around in the game window 🕹️**
 
@@ -19,7 +19,7 @@ Keep in mind which piece of code controls each action!
 
 
 
-## Step 3 - Game Over Pt. 1
+## {Step 3 - Game Over Pt. 1}
 
 **💀 Time for danger 💀 **
 
@@ -40,7 +40,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`poison pit`, function (sprite
 })
 ```
 
-## Try It!
+## {Try It!}
 
 **🕹️ Give it a try in the game window 🕹️**
 
@@ -50,7 +50,7 @@ When your monkey lands on the poison pit, it should end the game as a loss.
 
 
 
-## You Win Pt. 1
+## {You Win Pt. 1}
 
 **🎈 We have a way to lose, let's add a way to win 🎈**
 
@@ -74,7 +74,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`chest1`, function (sprite, lo
 ```
 
 
-## You Earned Points pt. 1
+## {You Earned Points pt. 1}
 
 **💯 Award points when the player collects an orange bauble 💯**
 
@@ -95,7 +95,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`orange bauble`, function (spr
 })
 ```
 
-## Try It Too!
+## {Try It Too!}
 
 **🕹️ Play your game and collect an orange bauble 🕹️**
 
@@ -104,7 +104,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`orange bauble`, function (spr
 Uh oh!  You get WAY too many points when you touch an orange bauble. We can fix that in the next step.
 
 
-## You Earned Points pt. 2
+## {You Earned Points pt. 2}
 
 **Replace the baubles you collect with an empty tile.**
 
@@ -126,7 +126,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`orange bauble`, function (spr
 
 
 
-## Finished
+## {Finished}
 
 **Now we have a simple platformer that has a way to win, a way to lose, and a way to collect points.**
 

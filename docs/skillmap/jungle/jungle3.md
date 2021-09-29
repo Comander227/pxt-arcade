@@ -1,7 +1,7 @@
 # Leaps and Bounds
 
 
-## Welcome @showdialog
+## {Welcome @showdialog}
 
 **Right now, it's nearly impossible to complete our game!**
 We need a way to pass the poison pits!
@@ -10,7 +10,7 @@ We need a way to pass the poison pits!
 
 
 
-## Step 2 - Try It!
+## {Step 2 - Try It!}
 
 **🕹️ First, play the game in the game window 🕹️**
 
@@ -20,7 +20,7 @@ Can you remember which piece of code controls each action?
 
 
 
-## Step 3 - Adding Block Walls
+## {Step 3 - Adding Block Walls}
 
 **You know what would help us get over those pits?**
 We need some well-placed platforms! Let's add a crate beneath the player when the A button is pressed.
@@ -40,7 +40,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 ```
 
-## Step 4 - Adding Block Walls, Cont.
+## {Step 4 - Adding Block Walls, Cont.}
 
 
 ► Make sure the new wall ends up in the right place by opening ``||tiles:Tilemaps||`` and dragging ``||tiles:location [left] of [location]||`` in to replace  ``||scene:tilemap col [0] row [0]||``.
@@ -59,7 +59,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 
 
 
-## Try It!
+## {Try It!}
 
 **🕹️ Give it a try in the game window 🕹️**
 
@@ -69,7 +69,7 @@ Try jumping while you press the (A) button. Your monkey should continue to hover
 
 
 
-## Step 5 - Adding Block Tiles
+## {Step 5 - Adding Block Tiles}
 
 **Where did my brick go??**
 The walls are great, but it's hard to remember where they are. Let's add special tiles over them so we can find them again later.
@@ -91,7 +91,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 ```
 
-## Step 6 - Adding Block Tiles, Cont.
+## {Step 6 - Adding Block Tiles, Cont.}
 
 
 ► Make sure the new tile ends up in the right place by opening ``||tiles:Tilemaps||`` and dragging ``||tiles:location [left] of [location]||`` in to replace  ``||scene:tilemap col [0] row [0]||``.
@@ -111,7 +111,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 ```
 
 
-## Try It!
+## {Try It!}
 
 **🕹️ Now try it in the game window 🕹️**
 
@@ -122,7 +122,7 @@ Now you can set your own blocks in-mid air to help you over the poison pit!
 
 
 
-## Finished
+## {Finished}
 
 **Play your game and see how many points you can get.**
 

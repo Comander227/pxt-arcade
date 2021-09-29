@@ -1,7 +1,7 @@
 # 80's Rockstar: Avoid the Fans
 
 
-## Welcome @showdialog
+## {Welcome @showdialog}
 
 How did those fans get backstage?  Keep the fans away from Jerry if you want to get the highest score.
 
@@ -10,7 +10,7 @@ How did those fans get backstage?  Keep the fans away from Jerry if you want to 
 
 
 
-## 2. Spot the Fan
+## {2. Spot the Fan}
 
 **📸 Remove points when Jerry runs into a screaming fan 📸**
 
@@ -31,7 +31,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`fan1`, function (sprite, loca
 })
 ```
 
-## 3. Subtract Points
+## {3. Subtract Points}
 
 
 - :puzzle: From ``||info:Info||``, snap a ``||info:change score by [1]||`` block into
@@ -47,7 +47,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`fan1`, function (sprite, loca
 })
 ```
 
-## 4. Try It!
+## {4. Try It!}
 
 **🕹️ Try your maze and see what happens when you run into a fan 🕹️**
 
@@ -56,7 +56,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`fan1`, function (sprite, loca
  Did you predict that you'd lose a BUNCH of points?
 
 
-## 5. Fewer Fans
+## {5. Fewer Fans}
 
 **Replace the fans with an empty tile.**
 
@@ -79,7 +79,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`fan1`, function (sprite, loca
 ![Share your location](/static/skillmap/assets/overlap-tile-location.gif "Grab the variable from the overlap container")
 
 
-## 6. More Fans
+## {6. More Fans}
 
 **🎤 Encore 🎤**
 Follow the same steps two more times to include the other fans.
@@ -109,7 +109,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`fan3`, function (sprite, loca
 ```
 
 
-## 5. Look Again
+## {5. Look Again}
 
 **🕹️ Try your maze in the game window 🕹️ **
 
@@ -119,7 +119,7 @@ You should lose one point for every fan you run into.
 How many points can you keep on your way to the door?
 
 
-## 6. Out of Time
+## {6. Out of Time}
 
 **🕒 Make it out in time 🕒**
 Let's use a timer to add some hustle to the whole experience!
@@ -143,7 +143,7 @@ info.startCountdown(30)
 
 
 
-## Finale
+## {Finale}
 
 🔥 **Congratulations** 🔥
 

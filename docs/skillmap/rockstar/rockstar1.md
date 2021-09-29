@@ -1,7 +1,7 @@
 # 80's Rockstar Backstage
 
 
-## Welcome @showdialog
+## {Welcome @showdialog}
 
 Congratulations!  You've just accepted a job managing Jerry, the last remaining  **80's Rockstar!**
 
@@ -12,7 +12,7 @@ We'll walk you through the skills you'll need to help Jerry navigate backstage t
 
 
 
-## 2. Let's Get Started
+## {2. Let's Get Started}
 
 **Your scene has already been set!**
 
@@ -25,7 +25,7 @@ have already been added to this activity.
 
 
 
-## 3. We need a HERO
+## {3. We need a HERO}
 
 **👏  We need Jerry! 👏**
 
@@ -46,7 +46,7 @@ let mySprite = sprites.create(assets.image`rockstar`, SpriteKind.Player)
 ```
 
 
-## 4. Control the Player
+## {4. Control the Player}
 
 **Time to get the sprite moving**
 
@@ -65,7 +65,7 @@ controller.moveSprite(mySprite)
 ```
 
 
-## 5. Try It
+## {5. Try It}
 
 **🕹️ Test on the game screen 🕹️ **
 
@@ -77,7 +77,7 @@ We'll fix that over the next couple of steps.
 
 
 
-## 6. Trapped Backstage
+## {6. Trapped Backstage}
 
 The rockstar sprite should appear at the stage door.
 
@@ -99,7 +99,7 @@ tiles.placeOnRandomTile(mySprite, assets.tile`stage`)
 ```
 
 
-## 7. Follow with Camera
+## {7. Follow with Camera}
 
 
 - :puzzle: Next, to keep Jerry in sight, open ``||scene:Scene||`` again and drag
@@ -117,7 +117,7 @@ scene.cameraFollowSprite(mySprite)
 ```
 
 
-## 8. Look Again
+## {8. Look Again}
 
 **🕹️ Try your maze in the game window 🕹️ **
 
@@ -128,7 +128,7 @@ You should be able to see your sprite as you move it around backstage.  Can you 
 
 
 
-## Finale
+## {Finale}
 
 🔥 **Well done!** 🔥
 

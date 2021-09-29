@@ -1,7 +1,7 @@
 # Watch Out!
 
 
-## Welcome @showdialog
+## {Welcome @showdialog}
 
 **🧨 Explosions are dangerous 🧨**
 This activity will show you how to register a hit on your player if the monkey is standing too close to the blast. You can remove other game elements, too!
@@ -10,7 +10,7 @@ This activity will show you how to register a hit on your player if the monkey i
 
 
 
-## Step 2 - Try It!
+## {Step 2 - Try It!}
 
 **🕹️ Start by playing your game in the game window 🕹️**
 
@@ -19,7 +19,7 @@ This activity will show you how to register a hit on your player if the monkey i
 Can you connect each chunk of code to the actions it creates?
 
 
-## Step 3 - Fried Monkey
+## {Step 3 - Fried Monkey}
 
 **💥 STAND BACK 💥**
 Make sure to get the monkey out of the way before the big bang!
@@ -38,7 +38,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, ot
 })
 ```
 
-## Step 4 - Remove the Projectile
+## {Step 4 - Remove the Projectile}
 
 ► From the ``||sprites:Sprites||`` category, drag ``||sprites:destroy [mySprite]||`` into the empty **on Projectile overlaps Player** container.
 
@@ -62,7 +62,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, ot
 
 
 
-## Step 5 - Take a Hit
+## {Step 5 - Take a Hit}
 
 Don't forget to remove HP from the monkey!
 
@@ -81,7 +81,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, ot
 
 
 
-## Try It!
+## {Try It!}
 
 **🕹️ Try your game 🕹️**
 
@@ -94,7 +94,7 @@ You should be able to jump with the up arrow, place tiles with the A button, and
 
 
 
-## Step 9 - Remove More Tiles
+## {Step 9 - Remove More Tiles}
 
 **💥 Kablow 💥**
 This game could have even more options if we remove **bounce** crates and **poison pit** tiles with explosives, too.
@@ -119,7 +119,7 @@ scene.onOverlapTile(SpriteKind.Projectile, assets.tile`bounce`, function (sprite
 })
 ```
 
-## Step 9 - Remove More Tiles
+## {Step 9 - Remove More Tiles}
 
 Repeat the process once again, but this time choose the **poison pit** tile.
 
@@ -140,7 +140,7 @@ scene.onOverlapTile(SpriteKind.Projectile, assets.tile`bounce`, function (sprite
 ```
 
 
-## Try It!
+## {Try It!}
 
 **🕹️ Play your game 🕹️**
 
@@ -150,7 +150,7 @@ Now that you can add and destroy blocks, is there anywhere you can't reach?!
 
 
 
-## Finished
+## {Finished}
 
 When you're done playing your game, click **Done** to return to the main page to learn how to animate your main player!
 

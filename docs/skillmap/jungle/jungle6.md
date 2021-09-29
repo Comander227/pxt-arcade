@@ -1,7 +1,7 @@
 # Animations
 
 
-## Welcome @showdialog
+## {Welcome @showdialog}
 
 **🏃🏽‍♀️ Let's get moving 🏃🏽‍♂️**
 
@@ -11,7 +11,7 @@ Now that we've added an animation for our explosives, let's animate our characte
 
 
 
-## Step 2 - Try It!
+## {Step 2 - Try It!}
 
 **🕹️ Start by playing your game in the game window 🕹️**
 
@@ -20,7 +20,7 @@ Now that we've added an animation for our explosives, let's animate our characte
 Can you connect each chunk of code to the actions it creates?
 
 
-## Step 3 - Step to the Right
+## {Step 3 - Step to the Right}
 
 **➡️ Walking to the Right ➡️**
 Let's make our character walk to the right when the right arrow is pressed.
@@ -38,7 +38,7 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 ```
 
-## Step 4 - Right Animation
+## {Step 4 - Right Animation}
 
 ► Click the **Advanced** category in the toolbar to reveal the ``||animation:Animation||`` category.
 
@@ -64,7 +64,7 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
 
 
 
-## Step 5 - Walk Left
+## {Step 5 - Walk Left}
 
 **⬅️ And Left ⬅️**
 
@@ -92,7 +92,7 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
 
 
 
-## Try It!
+## {Try It!}
 
 **🕹️ Try your game 🕹️**
 
@@ -101,7 +101,7 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
 Does your monkey walk right when you click the right arrow? Does it walk left with the left arrow?
 
 
-## Step 9 - Jump!
+## {Step 9 - Jump!}
 
 Now we need an animation that runs when the monkey jumps!
 
@@ -129,7 +129,7 @@ controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
 ```
 
 
-## Try It!
+## {Try It!}
 
 **🕹️ Play your game 🕹️**
 
@@ -139,7 +139,7 @@ Your monkey should look amazing as it runs and jumps!
 
 
 
-## Finished
+## {Finished}
 
 When you're done playing your game, click **Done** to return to the main page to learn how to add more levels!
 

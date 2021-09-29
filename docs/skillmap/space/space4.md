@@ -1,6 +1,6 @@
 # Fuel Up!
 
-## Introduction @showdialog
+## {Introduction @showdialog}
 
 Time to refuel!
 
@@ -13,7 +13,7 @@ ship from breaking down!
 ![Fuel Up!](/static/skillmap/space/spacet4.gif "Those aren't tacos!")
 
 
-## Step 2
+## {Step 2}
 The code in the workspace taking up a lot of room! 😨
 Don't worry, the workspace will expand if you scroll up &
 over (or down & over) to keep building.
@@ -33,7 +33,7 @@ Drag one to the end of the ``||loops:on start||`` container.
 let statusbar = statusbars.create(20, 4, StatusBarKind.Energy)
 ```
 
-## Step 3
+## {Step 3}
 
 If we want the status bar to show the details of **mySprite**, we'll need to link the two together.
 
@@ -53,7 +53,7 @@ let statusbar = statusbars.create(20, 4, StatusBarKind.Energy)
 statusbar.attachToSprite(mySprite, -30, 0)
 ```
 
-## Step 4
+## {Step 4}
 
 **⏰ The longer you're in the air, the more fuel you use ⏰ **
 
@@ -82,7 +82,7 @@ game.onUpdateInterval(300, function () {
 })
 ```
 
-## Step 5
+## {Step 5}
 
 **⛽ Time to refuel ⛽**
 
@@ -113,7 +113,7 @@ game.onUpdateInterval(5000, function () {
 })
 ```
 
-## Step 6
+## {Step 6}
 
 ► Click on the grey square and toggle to **My Assets** to choose the **Fuel** sprite.
 
@@ -128,7 +128,7 @@ game.onUpdateInterval(5000, function () {
 })
 ```
 
-## Step 7
+## {Step 7}
 
 Just like with the enemies, we'll want the fuel to drop from a random position
 across the top of the screen.
@@ -150,7 +150,7 @@ game.onUpdateInterval(5000, function () {
 ```
 
 
-## Step 8
+## {Step 8}
 
 ► To set a random [__*x*__](#setX "horizontal location")
 for the fuel, grab a
@@ -172,7 +172,7 @@ game.onUpdateInterval(5000, function () {
 ```
 
 
-## Step 9
+## {Step 9}
 
 Now we need to create a new **kind** of sprite for our **Fuel**!
 
@@ -200,7 +200,7 @@ game.onUpdateInterval(5000, function () {
 ```
 
 
-## Step 10
+## {Step 10}
 When your ship overlaps fuel, you'll want the gas to disappear as the tank refills.
 
 ---
@@ -222,7 +222,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Gas, function (sprite, otherSpri
 })
 ```
 
-## Step 11
+## {Step 11}
 
 ► To refill the status bar after grabbing fuel, snag a ``||statusbars:set [statusbar] [value] to [0]||`` block
 and snap it in to your newest **overlaps** container.
@@ -248,7 +248,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Gas, function (sprite, otherSpri
 })
 ```
 
-## Step 12
+## {Step 12}
 **🌌 If you run out of fuel, you'll be marooned in space! 🌌**
 
 The threat is real.
@@ -271,7 +271,7 @@ statusbars.onZero(StatusBarKind.Energy, function (status) {
 ```
 
 
-## Finale
+## {Finale}
 
 **And that's it!**
 

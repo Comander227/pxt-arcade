@@ -1,6 +1,6 @@
 # First Exhibit: By Sea
 
-## Step 1
+## {Step 1}
 
 **🐙 Welcome to the aquarium! 🐙**
 We're so excited to have you designing this exhibit.
@@ -37,7 +37,7 @@ let mySprite = sprites.create(img`
     `, SpriteKind.Player)
 ```
 
-## Step 2
+## {Step 2}
 
 **🐡 Just keep swimming! 🐡**
 
@@ -76,7 +76,7 @@ let mySprite = sprites.create(img`
 mySprite.vx = 50
 ```
 
-## Step 3
+## {Step 3}
 
 **Let's teach our fishy friend to do a flip!**
 
@@ -111,7 +111,7 @@ mySprite.setBounceOnWall(true)
 ```
 
 
-## Step 4
+## {Step 4}
 
 **Let's make the aquarium more exciting with some** **_randomness_**.
 
@@ -149,7 +149,7 @@ mySprite.setBounceOnWall(true)
 mySprite.y = 0
 ```
 
-## Step 5
+## {Step 5}
 
 ► From the ``||math:Math||`` category, grab a
 ``||math:pick random [0] to [10]||`` value block and
@@ -190,7 +190,7 @@ mySprite.y = randint(10, 110)
 ```
 
 
-## Step 6
+## {Step 6}
 **This is awesome...**but it's looking a little lonely in that aquarium.
 Let's give your sea critter a few friends!
 
@@ -230,7 +230,7 @@ for (let index = 0; index < 4; index++) {
 }
 ```
 
-## Step 7 @showdialog
+## {Step 7 @showdialog}
 
 **🌟 Great work 🌟**
 
@@ -240,7 +240,7 @@ Now it's feeding time, so let's
 get over to — **OH NO! What's this?**
 
 
-## Step 8 @showdialog
+## {Step 8 @showdialog}
 
 ![A rotating red siren](/static/skillmap/zoo/siren.gif)
 
@@ -249,7 +249,7 @@ get over to — **OH NO! What's this?**
 What's going on? Hold on, we're getting a report from the penguin department — the
 penguins did *what*?
 
-## Step 9
+## {Step 9}
 **🚨 You better click "Done" and get over there!🚨**
 
 

@@ -1,6 +1,6 @@
 # Ready, aim, fire!
 
-## Introduction @showdialog
+## {Introduction @showdialog}
 
 Are you ready to customize your ship?
 
@@ -9,7 +9,7 @@ In this tutorial, you'll equip your ship with [__*projectiles*__](#projected "a 
 ![Releasing projectiles](/static/skillmap/space/spacet2.gif "Here, enemy ship. Would you like to borrow a blaster?")
 
 
-## Customize sprites
+## {Customize sprites}
 
 **🚀 The workspace already has the code for a flying ship 🚀**
 
@@ -19,7 +19,7 @@ In this tutorial, you'll equip your ship with [__*projectiles*__](#projected "a 
 
 
 
-## Add a button event
+## {Add a button event}
 
 **Time for action!**
 
@@ -47,7 +47,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 ```
 
-## Retrospect @showdialog
+## {Retrospect @showdialog}
 
 You probably noticed that your projectiles are firing toward the bottom
 right corner. This is *not helpful* when your enemies are coming from above! Let's take a second to figure out what's happening.
@@ -59,7 +59,7 @@ values setting both the [__*vx*__](#whatVX "horizontal velocity")
 and [__*vy*__](#whatVY "vertical velocity") to 50.
 
 
-## Learn Velocity @showdialog
+## {Learn Velocity @showdialog}
 
 To change the direction of the projectiles, you need to change the
 speed they travel in a certain direction.
@@ -72,7 +72,7 @@ In MakeCode Arcade, we call this [__*velocity*__](#veloc "speed in a given direc
 ![Directional Projectiles](/static/skillmap/space/vxvy.gif "Round and Round")
 
 
-## Create a projectile
+## {Create a projectile}
 
 Play with the __vx__ and __vy__ values of the projectile until they're flying straight up at a decent speed.
 
@@ -82,7 +82,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 ```
 
-## Custom effects
+## {Custom effects}
 
 💥 Now for some special effects 💥
 
@@ -111,7 +111,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 ```
 
 
-## Complete
+## {Complete}
 
 🎆 **Congratulations** 🎆
 

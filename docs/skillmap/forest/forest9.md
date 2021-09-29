@@ -1,7 +1,7 @@
 # Head's Up
 
 
-## Welcome @showdialog
+## {Welcome @showdialog}
 
 Computer science is more important to firefighting than ever before.
 Let's add a heads-up-display (HUD) to help the pilot get information from their fire database in real-time.
@@ -10,7 +10,7 @@ Let's add a heads-up-display (HUD) to help the pilot get information from their 
 
 
 
-## 2. Remember
+## {2. Remember}
 
 **🎮 Try your game 🎮**
 
@@ -20,7 +20,7 @@ Can you remember which lines of code create each action?
 
 
 
-## 3. Look Up
+## {3. Look Up}
 
 A HUD will help the pilot see how many fires are burning at any moment.
 
@@ -59,7 +59,7 @@ hud.fire_hud(true)
 ```
 
 
-## 4. Test
+## {4. Test}
 
 **🎮 Test your game 🎮**
 
@@ -69,7 +69,7 @@ Is it any easier when you know there are still fires left?
 
 
 
-## 5. Fire Danger
+## {5. Fire Danger}
 
 Anticipate how quickly fires will spread with the Fire Danger HUD.
 
@@ -107,7 +107,7 @@ hud.danger_hud(true)
 ```
 
 
-## 6. Healthy Forests
+## {6. Healthy Forests}
 
 The crew needs to know how engulfed the forest is. Add another hud
 to share information on how much of the forest is still healthy.
@@ -146,7 +146,7 @@ hud.danger_hud(true)
 hud.forest_hud(true)
 ```
 
-## 7. Test Again
+## {7. Test Again}
 
 **🎮 Test your game again 🎮**
 
@@ -159,7 +159,7 @@ You can fix those in the next step.
 
 
 
-## 8. Customize
+## {8. Customize}
 
 Take a look at the rest of the blocks in the HUD category. Use as many as you want
 to customize your game screen!
@@ -196,7 +196,7 @@ hud.fire_hud_label ("Hot:")
 ```
 
 
-## 9. Play
+## {9. Play}
 
 **🎮 Time to play your game! 🎮**
 
@@ -210,7 +210,7 @@ What happens when you bump the numbers all the way up to 10 or all the way down 
 
 
 
-## Finale
+## {Finale}
 
 👏 **You've done it!** 👏
 

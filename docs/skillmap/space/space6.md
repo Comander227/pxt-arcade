@@ -1,6 +1,6 @@
 # The Art of Darts
 
-## Introduction @showdialog
+## {Introduction @showdialog}
 
 It's the details that make a difference.
 
@@ -9,7 +9,7 @@ This tutorial will show you how to send an array of different darts when you fir
 ![Take a shot!](/static/skillmap/space/spacet6.gif "They'll never know what hit them.")
 
 
-## Step 2
+## {Step 2}
 
 **🎯 Take aim! 🎯**
 
@@ -34,7 +34,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 ```
 
-## Step 3
+## {Step 3}
 
 Right now, we have a **list** of numbers. Let's make it a list of darts.
 
@@ -54,7 +54,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 ```
 
-## Step 4
+## {Step 4}
 
 ► Beneath the ``||statusbars:Advanced||`` category in the toolbox, click
 ``||images:Images||``.
@@ -64,7 +64,7 @@ the next step).
 
 
 
-## Step 5
+## {Step 5}
 
 ► Snap the first two grey image boxes into ``||variables:set [list] to array of [0] [1]||`` to
 replace the numbers **0** and **1**.
@@ -132,7 +132,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 ```
 
-## Step 6
+## {Step 6}
 
 **⤅ Time to choose the darts ⬶**
 
@@ -162,7 +162,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 ```
 
-## Step 7
+## {Step 7}
 
 **Tell the computer you want a random dart from the array each time you fire!**
 
@@ -188,7 +188,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 ```
 
 
-## Step 8
+## {Step 8}
 
 **🎮 Now give your project a try on the game screen 🎮**
 
@@ -197,7 +197,7 @@ If there's anything you don't like, now is a great time to dig in and change it!
 
 
 
-## Finale
+## {Finale}
 
 **You've done it!!**
 

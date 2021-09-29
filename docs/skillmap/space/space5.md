@@ -1,6 +1,6 @@
 # Level Up!
 
-## Introduction @showdialog
+## {Introduction @showdialog}
 
 You should be rewarded for all of your hard work!
 
@@ -9,7 +9,7 @@ This tutorial will show you how to level-up after earning 10 points.
 ![Level Up!](/static/skillmap/space/spacet5.gif "Your patience shall be rewarded")
 
 
-## Step 2
+## {Step 2}
 **This game is amazing!**
 
 Take a minute to look at each separate chunk of code.  Can you remember what they all do?
@@ -25,7 +25,7 @@ Take a minute to look at each separate chunk of code.  Can you remember what the
     myEnemy = sprites.createProjectileFromSide(assets.image`Spider`, 0, 50)
 ```
 
-## Step 3
+## {Step 3}
 
 **Leveling-up should make enemy ships faster.**
 
@@ -41,7 +41,7 @@ during game-play, we're going to need a [__*variable*__](#varied "a label that h
 
 
 
-## Step 4
+## {Step 4}
 
 **Before we can use the new variable, we need to give it a value.**
 
@@ -68,7 +68,7 @@ let enemySpeed = 50
 ```
 
 
-## Step 5
+## {Step 5}
 
 **🚀 Let's Fly 🚀**
 
@@ -94,7 +94,7 @@ game.onUpdateInterval(2000, function () {
 })
 ```
 
-## Step 6
+## {Step 6}
 
 **🕹️ Play your game and make sure it works exactly the same as before 🕹️**
 
@@ -102,7 +102,7 @@ You shouldn't notice any difference in the speed of the ship.
 
 
 
-## Step 7
+## {Step 7}
 
 **👀 Watch the score 👀**
 
@@ -128,7 +128,7 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, oth
 ```
 
 
-## Step 8
+## {Step 8}
 
 ► From ``||logic:Logic||``, grab ``||logic:<[0] [=] [0]>||`` and snap it in to the **if statement** to replace **true**.
 
@@ -149,7 +149,7 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, oth
 ```
 
 
-## Step 8
+## {Step 8}
 
 The first thing we should do when the score gets to **10** is give a level-up bonus!
 
@@ -173,7 +173,7 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, oth
 ```
 
 
-## Step 9
+## {Step 9}
 
 **📢 Say it LOUD 📢**
 
@@ -204,7 +204,7 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, oth
 })
 ```
 
-## Step 10
+## {Step 10}
 
 **Here comes the fun part!**
 
@@ -233,7 +233,7 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, oth
 })
 ```
 
-## Step 11
+## {Step 11}
 **That's it!  That's all you needed to do.**
 
 Since we already have the ``||variables:enemySpeed||`` variable in place for the projectile's **vy**,
@@ -244,7 +244,7 @@ it will automatically update when we change the speed in another part of the pro
 ► Play your finished game and see if you can get 10 points to level-up!
 
 
-## Finale
+## {Finale}
 
 **Congratulations!!**
 
